@@ -1,0 +1,14 @@
+name: JoinSound
+version: 1.1
+description: Plays a sound if a player joins.
+author: Dragongott 
+main: me.dragongott.joinsound.joinsound
+
+permissions:
+  joinsound.*:
+    description: You can hear all joinsound sounds.
+    children:
+      joinsound.join:
+        description: You can hear the sound if a player joins.
+      joinsound.leave:
+        description: You can hear the sound if a player leaves.
